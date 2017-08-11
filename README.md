@@ -26,7 +26,7 @@
 This library will be loaded as it is configured in `paths` option in `src/tsconfig.app.json`
 
 
-**References:**
+### References:
 
 This project was built using [angular-cli](https://cli.angular.io/) scaffolding and [generator-angular2-library](https://github.com/jvandemo/generator-angular2-library) rollup-build system
 
