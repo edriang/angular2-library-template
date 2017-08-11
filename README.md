@@ -1,28 +1,63 @@
-# NgxLibraryTemplate
+# ngx-library-template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.2.
 
-## Development server
+## Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+https://edriang.github.io/ngx-library-template/dist-demo/
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+## Installation
 
-## Build
+To install this library, run:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```bash
+$ npm install ngx-library-template --save
+```
 
-## Running unit tests
+**Important:** Also check that listed `peerDependencies` on `package.json` are installed into your project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Description
 
-## Running end-to-end tests
+TODO...
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
 
-## Further help
+## Usage
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+See Demo project, under `src/app` folder
+
+
+## Run demo locally
+
+```bash
+$ npm run start
+```
+
+
+## Development notes
+
+- Lib sources are under `src/lib`
+- Demo sources are under `src/app`
+
+To create `dist-lib` bundle (dist of the lib app) run:
+
+```bash
+$ npm run build-lib
+```
+
+To create `dist-demo` bundle (dist of the demo app) run:
+
+```bash
+$ npm run build
+```
+
+
+To publish `cd dist-demo` and `npm publish`
+
+
+**Important:** this project uses two `package.json` files. One, in the root folder, is for defining dependencies to run and build the code and else dependencies used by the demo project. Dependencies of the lib must be configured under `src/lib/package.json` as well as info of the lib itself (name, version, etc)
+
+
+
+## License
+
+MIT © [Adrian Gallardo](mailto:agallardo@clarika.com.ar)

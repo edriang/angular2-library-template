@@ -1,0 +1,26 @@
+{
+    "name": "ngx-library-template",
+    "version": "0.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/edriang/ngx-library-template"
+    },
+    "author": {
+        "name": "Adrian Gallardo",
+        "email": "agallardo@clarika.com.ar"
+    },
+    "keywords": [
+        "angular"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/edriang/ngx-library-template/issues"
+    },
+    "module": "ngx-library-template.js",
+    "typings": "ngx-library-template.d.ts",
+    "peerDependencies": {
+        "@angular/core": "^4.0.0",
+        "rxjs": "^5.1.0",
+        "zone.js": "^0.8.4"
+    }
+}
