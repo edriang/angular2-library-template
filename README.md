@@ -1,5 +1,35 @@
 # ngx-library-template
 
+================================================================================
+= Remove from here... ==========================================================
+
+## Steps to use this template project to build libraries
+
+.1  Remove `.git` folder from the root dir. This is important if you checkout the source code from a repository because you are going to create your own library.
+
+    ```bash
+    $ rm -R .git
+    ```
+
+.2  Replace all `ngx-library-template` text references in files with `your-own-package-name`:
+    - README.md
+    - package.json
+    - .angular-cli.json
+    - src/app/app.module.ts
+    - src/lib/package.json
+    - src/lib/tsconfig.es5.json
+    - src/tsconfig.app.json
+
+.3  Remove this steps from the README and complete the library details
+
+.4  Read development notes and build/run notes below
+
+**Important:** If your IDE lints `ngx-library-template` as not found module, ignore this warning.
+This library will be loaded as it is configured in `paths` option in `src/tsconfig.app.json`
+
+
+= ...to here ===================================================================
+================================================================================
 
 ## Demo
 
@@ -37,6 +67,9 @@ $ npm run start
 
 - Lib sources are under `src/lib`
 - Demo sources are under `src/app`
+
+**Important:** The sources to be packaged and compiled are the ones listed in `src/lib/index.ts` or any of its dependencies
+
 
 To create `dist-lib` bundle (dist of the lib app) run:
 
