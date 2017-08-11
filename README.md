@@ -1,11 +1,6 @@
 # ngx-library-template
 
 
-********************************************************************************
-* Remove from here... **********************************************************
-********************************************************************************
-
-
 ## Steps to use this template project to build libraries
 
 1.  Remove `.git` folder from the root dir. This is important if you checkout the source code from a repository because you are going to create your own library.
@@ -32,7 +27,7 @@ This library will be loaded as it is configured in `paths` option in `src/tsconf
 
 
 ********************************************************************************
-* ...to here *******************************************************************
+**NOTE:** REMOVE ABOVE DOC BEFORE PUBLISHING YOUR OWN LIBRARY...
 ********************************************************************************
 
 
@@ -95,6 +90,10 @@ To publish `cd dist-demo` and `npm publish`
 
 **Important:** this project uses two `package.json` files. One, in the root folder, is for defining dependencies to run and build the code and else dependencies used by the demo project. Dependencies of the lib must be configured under `src/lib/package.json` as well as info of the lib itself (name, version, etc)
 
+
+## Side Notes
+
+This project was built using [angular-cli](https://cli.angular.io/) scaffolding and [generator-angular2-library](https://github.com/jvandemo/generator-angular2-library) rollup-build system
 
 
 ## License
